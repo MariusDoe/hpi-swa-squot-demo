@@ -46,12 +46,12 @@ Counter >> increment [
 
 {
 	#category : #accessing,
-	#'squeak_changestamp' : 'mad 11/3/2023 15:20'
+	#'squeak_changestamp' : 'mad 11/3/2023 15:22'
 }
 Counter >> reset [
 	"initial common line"
-	currentValue := 0.
+	currentValue := -1.
 	"more common lines"
-	self inform: 'problems!'.
+	self inform: 'merge-conflicts!'.
 	"one last common line"
 ]
