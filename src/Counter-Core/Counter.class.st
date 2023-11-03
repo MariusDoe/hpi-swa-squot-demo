@@ -36,10 +36,9 @@ Counter >> currentValue: anObject [
 
 {
 	#category : #accessing,
-	#'squeak_changestamp' : 'mad 9/26/2023 16:42'
+	#'squeak_changestamp' : 'mad 11/3/2023 15:23'
 }
 Counter >> increment [
-	self halt. "for debug"
 	currentValue := currentValue + 5.
 	Transcript showln: 'incremented!'.
 ]
