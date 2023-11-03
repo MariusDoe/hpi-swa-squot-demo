@@ -1,4 +1,4 @@
 Package {
-	#'squeak_changestamp' : true,
-	#name : #'Counter-Core'
+	#name : #'Counter-Core',
+	#'squeak_changestamp' : true
 }
