@@ -6,5 +6,11 @@ OrderedCollection [
 		#path : FSAbsolutePath [
 			'src'
 		]
+	},
+	SquotTonelMapper {
+		#package : MCPackage {
+			#name : 'DVD-Logo'
+		},
+		#path : @4
 	}
 ]
