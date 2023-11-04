@@ -36,11 +36,12 @@ DVDLogo >> container [
 
 {
 	#category : #initialization,
-	#'squeak_changestamp' : 'mad 11/4/2023 10:23'
+	#'squeak_changestamp' : 'mad 11/4/2023 10:28'
 }
 DVDLogo >> initialize [
 	super initialize.
 	self velocity: 20@21.
+	self image: ((GitAssetLoader forProject: 'Demo') loadForm: 'DVD_logo.png').
 ]
 
 {

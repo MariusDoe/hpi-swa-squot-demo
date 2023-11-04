@@ -1,4 +1,4 @@
 Package {
-	#'squeak_changestamp' : true,
-	#name : #'DVD-Logo'
+	#name : #'DVD-Logo',
+	#'squeak_changestamp' : true
 }
