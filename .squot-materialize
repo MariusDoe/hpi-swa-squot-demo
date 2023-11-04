@@ -12,5 +12,12 @@ OrderedCollection [
 			#name : 'DVD-Logo'
 		},
 		#path : @4
+	},
+	SquotImageMapper {
+		#path : FSAbsolutePath [
+			'assets',
+			'DVD_logo.png'
+		],
+		#encoding : Class [ #PNGReadWriter ]
 	}
 ]
