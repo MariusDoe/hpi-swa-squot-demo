@@ -20,10 +20,10 @@ Counter class >> create [
 
 {
 	#category : #accessing,
-	#'squeak_changestamp' : 'mad 9/26/2023 15:27'
+	#'squeak_changestamp' : 'mad 12/13/2023 14:32'
 }
 Counter >> currentValue [
-	^ currentValue ifNil: [currentValue := 5]
+	^ currentValue ifNil: [currentValue := 42]
 ]
 
 {
@@ -36,11 +36,11 @@ Counter >> currentValue: anObject [
 
 {
 	#category : #accessing,
-	#'squeak_changestamp' : 'mad 9/26/2023 16:42'
+	#'squeak_changestamp' : 'mad 12/13/2023 14:31'
 }
 Counter >> increment [
 	self halt. "for debug"
-	currentValue := currentValue + 5.
+	currentValue := currentValue + 1.
 	Transcript showln: 'incremented!'.
 ]
 
