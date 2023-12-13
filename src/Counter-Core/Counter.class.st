@@ -20,10 +20,10 @@ Counter class >> create [
 
 {
 	#category : #accessing,
-	#'squeak_changestamp' : 'mad 9/26/2023 15:27'
+	#'squeak_changestamp' : 'mad 12/13/2023 14:32'
 }
 Counter >> currentValue [
-	^ currentValue ifNil: [currentValue := 5]
+	^ currentValue ifNil: [currentValue := 42]
 ]
 
 {
